@@ -2,4 +2,29 @@ body {
   width: 100%;
   height: 100%;
   margin: 0;
+  align-items: center;
+}
+
+section#details {
+  display: flex;
+  background-color: rgb(255, 0, 0);
+}
+ section#details div {
+  flex: 1;
+  margin: 0 10px;
+
+}
+
+section#featured-property {
+  margin: 10px;
+  padding: 10px;
+  width: 500px;
+}
+
+section#featured-property p{
+  text-align: center;
+}
+
+.header{
+  text-align: center;
 }
